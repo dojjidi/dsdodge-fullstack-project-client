@@ -2,11 +2,11 @@ const store = require('./store')
 
 const signUpSuccess = function (responseData) {
   // tell the user it was successful
-  $('#movies-display').text('Signed up successfully!')
+  $('#scores-display').text('Signed up successfully!')
 
   // remove existing classes, then add a green text-success class from bootstrap
-  $('#movies-display').removeClass()
-  $('#movies-display').addClass('text-success')
+  $('#scores-display').removeClass()
+  $('#scores-display').addClass('text-success')
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
@@ -34,11 +34,11 @@ const signInSuccess = function (responseData) {
   console.log('store is', store)
 
   // tell the user it was successful
-  $('#movies-display').text('Signed in successfully!')
+  $('#scores-display').text('Signed in successfully!')
 
   // remove existing classes, then add a green text-success class from bootstrap
-  $('#movies-display').removeClass()
-  $('#movies-display').addClass('text-success')
+  $('#scores-display').removeClass()
+  $('#scores-display').addClass('text-success')
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
@@ -65,11 +65,11 @@ const signInFailure = function (error) {
 
 const changePasswordSuccess = function (responseData) {
   // tell the user it was successful
-  $('#movies-display').text('Changed password successfully!')
+  $('#scores-display').text('Changed password successfully!')
 
   // remove existing classes, then add a green text-success class from bootstrap
-  $('#movies-display').removeClass()
-  $('#movies-display').addClass('text-success')
+  $('#scores-display').removeClass()
+  $('#scores-display').addClass('text-success')
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
@@ -91,11 +91,11 @@ const changePasswordFailure = function (error) {
 
 const signOutSuccess = function (responseData) {
   // tell the user it was successful
-  $('#movies-display').text('Logout Successful!')
+  $('#scores-display').text('Logout Successful!')
 
   // remove existing classes, then add a green text-success class from bootstrap
-  $('#movies-display').removeClass()
-  $('#movies-display').addClass('text-success')
+  $('#scores-display').removeClass()
+  $('#scores-display').addClass('text-success')
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
