@@ -10,8 +10,6 @@ const signUpSuccess = function (responseData) {
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
-
-  console.log('responseData is', responseData)
 }
 
 const signUpFailure = function (error) {
@@ -31,8 +29,6 @@ const signInSuccess = function (responseData) {
   // to the `store` object. So we can access the user's token
   // later in api.js
   store.user = responseData.user
-  console.log('store is', store)
-
   // tell the user it was successful
   $('#scores-display').text('Signed in successfully!')
 
@@ -47,8 +43,6 @@ const signInSuccess = function (responseData) {
   $('#before-sign-in').hide()
   $('#after-sign-in').show()
   $('#after-start').hide()
-
-  console.log('responseData is', responseData)
 }
 
 const signInFailure = function (error) {
@@ -73,8 +67,6 @@ const changePasswordSuccess = function (responseData) {
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
-
-  console.log('responseData is', responseData)
 }
 
 const changePasswordFailure = function (error) {
@@ -101,7 +93,6 @@ const signOutSuccess = function (responseData) {
   $('form').trigger('reset')
   $('#after-sign-in').hide()
   $('#before-sign-in').show()
-  console.log('responseData is', responseData)
 }
 
 const signOutFailure = function (error) {
