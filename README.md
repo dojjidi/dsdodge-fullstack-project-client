@@ -1,9 +1,9 @@
-# Progress Tracker
+# Progress Tracker Client
 
-## Deployment Link
-- Client: https://dojjidi.github.io/dsdodge-fullstack-project-client/
+## Important Links
+- Deployed Client: https://dojjidi.github.io/dsdodge-fullstack-project-client/
 
-- API: https://afternoon-meadow-75406.herokuapp.com/
+- Deployed API: https://afternoon-meadow-75406.herokuapp.com/
 
 - API Repo: https://github.com/dojjidi/dsdodge-fullstack-project-api
 
@@ -19,15 +19,8 @@ User Stories:
 - As a user, I want to Update a game that I have submitted
 - As a user, I want to Delete one of the games that I have submitted
 
-### Unsolved Problems
-- Still need to get all of the CRUD resources cooperating with the front end
-
-- Would like to eventually expand on the app (or start on a new one) and have it import stats from an existing game API (pulling straight from Valorant, etc...)
-
 ### Images
-- Client: https://i.imgur.com/UktrZF4.jpg
-
-- ERD: https://i.imgur.com/zwtKH2G.jpg
+- Client Wireframes: https://i.imgur.com/UktrZF4.jpg
 
 
 
