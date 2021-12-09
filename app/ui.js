@@ -45,8 +45,8 @@ const signInSuccess = function (responseData) {
 
   // After we sign in, hide the section with the id `before-sign-in`
   $('#before-sign-in').hide()
-  // After we sign in, show the section with the id `after-sign-in`
   $('#after-sign-in').show()
+  $('#after-start').hide()
 
   console.log('responseData is', responseData)
 }
@@ -99,7 +99,8 @@ const signOutSuccess = function (responseData) {
 
   // clear (reset) all of the forms
   $('form').trigger('reset')
-
+  $('#after-sign-in').hide()
+  $('#before-sign-in').show()
   console.log('responseData is', responseData)
 }
 
